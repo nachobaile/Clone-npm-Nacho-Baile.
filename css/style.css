@@ -1,0 +1,212 @@
+body{
+  font-family: "Open Sans", "OpenSans", sans-serif;
+  margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+a:hover{
+  color: rgba(255,255,255,1);
+}
+nav {
+  background-color: #C12127;
+  padding: 10px 15px;
+}
+nav a{
+  font-size: 14px;
+
+}
+.link-black{
+  color: #000;
+}
+.container{
+  width: 1160px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.article-box{
+  text-align:center;
+}
+.article-box .title{
+  font-weight: bold;
+  font-size: 20px;
+  color: #373d48;
+}
+.article-box .text{
+  color:#6d7986;
+}
+.article-box a{
+  color:#cb3837;
+}
+.top-left{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.top-links {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  padding:0;
+  margin: 0;
+}
+.top-links li{
+    display: inline-block;
+  margin: 0 10px;
+}
+.collaboration{
+  background:rgb(32, 101, 136);
+  color:#FFFFFF;
+}
+.whatis{
+  background-image: url("../images/forklift.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  min-height: 450px;
+}
+.title{
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.text{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.button{
+  padding: 8px 25px;
+  border: 0 none;
+  border-radius: 20px;
+  background: #34495e;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.button:hover{
+  background: #151e26;
+}
+.button-clr-1{
+  background: #f09233;
+}
+.button-clr-1:hover{
+  background: #e97e11;
+}
+.button-clr-2{
+  background: #ac2e2d;
+}
+.button-clr-2:hover{
+  background: #ac2e2d;
+}
+/*header*/
+.header{
+  width: 100%;
+  background-image:url("../images/city-scape.svg");
+  background-size:cover;
+  background-position:0 0;
+  background-repeat:no-repeat;
+  padding: 0 15px 0;
+  position:relative;
+  color:#FFFFFF;
+  height: 400px;
+}
+.header-top{
+  width: 100%;
+  padding: 20px 0;
+}
+.header-logo{
+  width: 125px;
+  display: inline-block;
+  vertical-align: top;
+}
+.header-logo a{
+  display: block;
+}
+.header-logo img{
+  width: 100%;
+}
+.header .title{
+  font-size: 48px;
+}
+.header .text{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.header-searchbar{
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 20px;
+  position: relative;
+}
+.search-input{
+  width: 100%;
+  border: 0.2px solid rgba(255,255,255,0.2);
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+  padding: 5px 55px 5px 15px;
+  background: rgb(31, 82, 111);
+  height: 50px;
+}
+.search-button{
+  position: absolute;
+  right: 20px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  border: 0 none;
+  border-left: 1px solid rgba(255,255,255, 0.2);
+  color: rgba(255,255,255,0.8);
+  background: 0 none;
+  cursor: pointer;
+}
+.search-button:hover{
+color: rgba(255,255,255,1);
+}
+.header-info{
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+.header-info ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header-info li{
+  display: inline-block;
+  vertical-align: middle;
+  color: rgba(255,255,255,0.8);
+  margin: 0;
+}
+.header-info .login img{
+  width: 45px;
+  height: 45px;
+}
+.col{
+  display: inline-block;
+  padding: 0 10px;
+}
+.col-3{
+  width: 29.5%;
+}
+.col-33{
+  width: 32.5%;
+}
+.col-4{
+  width: 39.5%;
+}
+.col-5{
+  width: 49.5%;
+}
+.col-6{
+  width: 59.5%;
+}
